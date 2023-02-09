@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charest="utf-8" />
+        <title>Hello world!</title>
+    </head>
+	<style>
+        .contenedor-padre{
+            display: flex;
+            overflow-x: scroll;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: proximity;
+        }
+        .contenedor-hijo{
+            position: relative;
+            scroll-snap-align: center;
+        }
+	</style>
+    <body>
+        <h1>Slide fácil</h1>
+		<div class="contenedor-padre">
+            <div class="contenedor-hijo">
+
+            </div>   
+		</div>
+    </body>
+</html>
